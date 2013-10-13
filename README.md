@@ -1,4 +1,15 @@
-TestBoxCLI
-==========
+# test-box-cli
 
-Command-line interface written in NodeJS to execute remote calls to the TestBox runner.
+## Installation
+
+Install with npm:
+
+```
+npm install --save test-box-cli
+```
+
+## Executing CLI
+
+```
+node npm_modules/test-box-cli
+```

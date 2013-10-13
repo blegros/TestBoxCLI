@@ -1,0 +1,39 @@
+{
+  "name": "test-box-cli",
+  "prefer-global": true,
+  "version": "1.0.0-alpha",
+  "author": "Brian LeGros <me@brianlegros.com>",
+  "description": "Command-line interface written in NodeJS to execute remote calls to the TestBox runner.",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "main": "./lib/testBoxCLI.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blegros/TestBoxCLI"
+  },
+  "dependencies": {
+    "commander": "~2.0.0",
+    "multimeter": "~0.1.1"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-mocha-test": "~0.7.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "chai": "~1.8.1",
+    "sinon": "~1.7.3",
+    "matchdep": "~0.3.0"
+  },
+  "keywords": [
+    "TestBox",
+    "MockBox",
+    "ColdBox",
+    "CLI",
+    "Coldfusion"
+  ],
+  "license": "Apache 2.0 License",
+  "engines": {
+    "node": ">=0.10"
+  }
+}
